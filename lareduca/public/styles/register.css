@@ -1,0 +1,17 @@
+.logoDiv{
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+.logoLaraeduca{
+    position: relative;
+    height: 30%;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.roleInput{
+    border: 1px #d1d5db solid;
+    border-radius: 5px;
+    width: 100%;
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+/* font-family: "Teachers", sans-serif; */
+
+body{margin: 0;}
+.mainContentDashboard {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../background2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    font-family: "Teachers", sans-serif;
+    overflow: auto;
+}
+
+.divSelect{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    top: 13%;
+    width: 15%;
+    left: 9%;
+    padding: .5%;
+    padding-block: .7%;
+    background-color: hsla(209, 67%, 70%, 0.76);
+    backdrop-filter: blur(13.5px);
+    height: 15%;
+    border-radius: 20px;
+}
+.selectCourse{
+    height: 30%;
+    width: 95%;
+    padding: 1%;
+    
+    font-size: 15px;
+    margin-bottom: 1%;
+    background-color: rgb(69, 111, 201);
+    font-family: "Teachers", sans-serif;
+    border-radius: 5px;
+    border: 2px #90a6e7 solid;
+    color: white;
+    backdrop-filter: blur(13.5px);
+    transition: 1s;
+    outline: none;
+}
+
+.fullDashboard{
+    position: absolute;
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 70%;
+    width: 80%;
+    align-items: center;
+    /* padding-inline: 9%; */
+    padding: 1%;
+    top: 20%;
+    background-color: hsla(0, 0%, 85%, 0.76);
+    backdrop-filter: blur(13.5px);
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.alumnsDiv{
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+    max-height: 97%;
+    width: 96%;
+    overflow: auto;
+    padding: 0%;
+    border-radius: 20px;
+}
+.divAlumn{
+    flex: 1 1 180px;
+    height: 62%;
+    max-width: 30%;
+    padding: 1%;
+    padding-inline: 2%;
+    background-color: #226d99;
+    border-radius: 15px;
+    backdrop-filter: blur(13.5px);
+
+    font-size: 12px;
+    color: white;
+    overflow: auto;
+    transition: 1s;
+}
+.divAlumn:hover{
+    .alumnPicture{
+        height: 55%;
+        
+    }
+}
+.divAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 90%;
+    font-family: "Teachers", sans-serif;
+}
+
+.alumnPicture{
+    width: 65%;
+    border: 2px white solid;
+    border-radius: 10px;
+    transition: .8s;
+}
+
+.addAlumnDiv{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.divNewAlumn{
+    position: relative;
+    height: 5%;
+    width: auto;
+    padding: 2%;
+    margin-block: 2%;
+    padding-inline: 2%;
+    background-color: #3a69cf;
+    border-radius: 15px;
+    backdrop-filter: blur(13.5px);
+    border: 1px #226d99 solid;
+    font-size: 12px;
+    color: white;
+    overflow: auto;
+    transition: 1s;
+}
+
+.divNewAlign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    background-color: #3a69cf;
+
+    width: 100%;
+    height: 100%;
+    font-family: "Teachers", sans-serif;
+    transition: .5s;
+    border: none;
+}
+.divNewAlign:focus{
+    outline: none;
+}
+.submitNewAlumn{
+    width: 50%;
+    height: 7%;
+    padding: 0%;
+    margin: 4%;
+    color: white;
+    background-color: #3cd362;
+    border-radius: 10px;
+    border: 3px #3a69cf solid;
+    font-size: 150%;
+    transition: .5s;
+}
+.submitNewAlumn:hover{
+    width: 50%;
+    height: 7%;
+    color: white;
+    background-color: #3cd362;
+    border: 3px #3a69cf solid;
+    font-size: 150%;
+}
+
+.deleteAlumnClass{
+    width: auto;
+    height: 7%;
+    padding: 2%;
+    color: white;
+    background-color: #c01e1e;
+    border-radius: 10px;
+    font-family: "Teachers", sans-serif;
+    border: 2px #ffffff solid;
+    transition: .5s;
+}

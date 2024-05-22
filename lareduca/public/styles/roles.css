@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+/* font-family: "Teachers", sans-serif; */
+
+body{margin: 0;}
+.mainContentDashboard {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../background2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.fullDashboard{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    overflow: auto;
+
+    height: 77%;
+    width: 80%;
+    justify-content: center;
+    padding-inline: 1%;
+    padding-top: 1%;
+    top: 18%;
+
+    background-color: hsla(0, 0%, 85%, 0.76);
+    backdrop-filter: blur(13.5px);
+    border-radius: 20px;
+}
+
+.coursesDiv{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 90%;
+    height: 100%;
+}
+.course{
+    display: flex;
+    height: 42%;
+    flex: 1 1 560px;
+    padding: 1%;
+    font-family: "Teachers", sans-serif;
+
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
+
+    overflow: auto;
+    color: white;
+    border: 5px #184258 solid;
+}
+.courseInfo{
+    background-color: rgba(180, 180, 180, 0.76);
+    padding: 2%;
+    width: 30%;
+    height: 80%;
+    font-size: 13px;
+    border-radius: 10px;
+    overflow: auto;
+    backdrop-filter: blur(13.5px);
+}
+
+.imageBack{
+    width: 100%;
+    height: 100%;
+}
+
+.courseTutorInfo{
+    position: relative;
+    font-size: 13px;
+
+    background-color: rgba(180, 180, 180, 0.76);
+    backdrop-filter: blur(13.5px);
+    padding: 2%;
+    border-radius: 10px;
+    width: 30%;
+    height: 80%;
+    left: 2%;
+    overflow: auto;
+}
+
+.selectTutor{
+    padding: 2%;
+    background-color: rgb(69, 111, 201);
+    font-family: "Teachers", sans-serif;
+    border-radius: 5px;
+    color: white;
+    backdrop-filter: blur(13.5px);
+    transition: 1s;
+    outline: none;
+
+}
+
+.divChangeRole{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 15%;
+    background-color: #184258;
+    padding: 1%;
+    margin-inline: .5%;
+    border-radius: 15px;
+    color: white;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.selectsDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.selectUser{
+    display: flex;
+    width: auto;
+    max-width: 95%;
+
+    padding: 1%;
+    margin-block: 1%;
+    background-color: rgb(69, 111, 201);
+    font-family: "Teachers", sans-serif;
+    border-radius: 5px;
+    border: 2px #90a6e7 solid;
+    color: white;
+    backdrop-filter: blur(13.5px);
+    transition: 1s;
+    outline: none;
+}
+.selectedRole{
+    display: flex;
+    width: auto;
+    max-width: 95%;
+    padding: 1%;
+    margin-block: 1%;
+    background-color: rgb(69, 111, 201);
+    border: 2px #90a6e7 solid;
+
+    font-family: "Teachers", sans-serif;
+    border-radius: 5px;
+    color: white;
+    backdrop-filter: blur(13.5px);
+    transition: 1s;
+    outline: none;
+
+}

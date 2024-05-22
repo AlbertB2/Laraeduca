@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.navbarDiv{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+
+    border-radius: 10px;
+    background: rgba(193, 193, 193, 0.762);
+    backdrop-filter: blur(13.5px);
+
+    height: 5vh;
+    width: 80%;
+    padding: 15px;
+    margin: 1%;
+
+    z-index: 99;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.laraeducaLogo{
+    position: relative;
+    height: 130%;
+}
+.navigationMenu{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.logoutButton{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+
+    color: white;
+    background-color: rgba(250, 10, 10, 0.568);
+
+    padding-block: 12px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    box-shadow: -1px -1px 1px 1px rgb(75, 75, 75);
+
+    transition: 1s;
+}
+.logoutButton:hover{
+    color: red;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px red solid;
+    box-shadow: -1px -1px red;
+}
+
+.navigationLinks { 
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    transition: 1s;
+}
+.navigationLinks:hover {
+    color: #0B2533;
+}
+
