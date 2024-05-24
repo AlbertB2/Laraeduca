@@ -23,7 +23,7 @@ body{margin: 0;}
     /* align-items: center; */
     top: 13%;
     width: 15%;
-    left: 9%;
+    left: 10%;
     padding: .5%;
     padding-block: .7%;
     background-color: hsla(209, 67%, 70%, 0.76);
@@ -49,11 +49,11 @@ body{margin: 0;}
 }
 
 .fullDashboard{
-    position: absolute;
+    position: relative;
     /* display: flex; */
     /* flex-direction: column; */
     height: 70%;
-    width: 80%;
+    width: 60%;
     align-items: center;
     /* padding-inline: 9%; */
     padding: 1%;
@@ -188,4 +188,80 @@ body{margin: 0;}
     font-family: "Teachers", sans-serif;
     border: 2px #ffffff solid;
     transition: .5s;
+}
+
+.contentAdmin{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 100%;
+    justify-content: center;
+    gap: 1em;
+}
+
+.createCourse{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 20%;
+    height: 50%;
+    top: 20%;
+    font-family: "Teachers", sans-serif;
+
+    overflow: auto;
+    background-color: #226d99;
+    border-radius: 15px;
+    backdrop-filter: blur(13.5px);
+    color: white;
+    padding-block: 1%;
+}
+.inputsNewCourse{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1em;
+}
+.deleteCourse{
+    background-color: #226d99;
+    border:3px red dashed;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    width: 40%;
+    transition: 1s;
+}
+.deleteCourse:hover{
+    background-color: red;
+    border:3px #226d99 solid;
+    padding: 1.5%;
+    border-radius: 10px;
+    color: white;
+    font-family: "Teachers", sans-serif;
+    width: 40%;
+}
+.newCourseButt{
+    width: 30%;
+    border-radius: 5px;
+    font-size: 25px;
+    background: #3ba2dab5;
+    border: 2px #12db12 dashed;
+    color: #12db12;
+    transition: 1s;
+}
+.inputCourse{
+    width: auto;
+    padding: 1%;
+    border-radius: 10px;
+    border:3px #9c9c9c solid;
+}
+.inputCourse:focus{
+    outline: none;
+}
+textarea{
+    resize: none;
+    height: 10vh;
 }
